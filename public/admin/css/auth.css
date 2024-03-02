@@ -1,0 +1,30 @@
+body{ background-color: #fff;}
+#auth{ height: 100vh;overflow-x: hidden;}
+.btn-primary {background-color: #6c78d1;  border-color: #6c78d1;}
+.btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary:hover {background-color: #4959cd; border-color: #4959cd;}
+#auth #auth-right { background: url(../img/4853433.jpg),linear-gradient(90deg,#2d499d,#3f5491);height: 100%; background-size: cover; background-repeat: no-repeat; position: relative; background-position: center;}
+#auth #auth-right::before {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(132, 133, 29,.90); content: "";}
+/* #auth #auth-right {background: none !important; background-color: #6c78d1 !important; width: 100%; height: 100%;} */
+#auth #auth-left{ padding: 5rem 8rem;}
+#auth #auth-left .auth-title{ font-size: 4rem;margin-bottom: 1rem;}
+#auth #auth-left .auth-subtitle{ color: #ccc;font-size: 1.2rem;line-height: 1.5rem;}
+#auth #auth-left .auth-logo{ margin-bottom: 7rem;}
+#auth #auth-left .auth-logo img{ height: 2rem;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {color: #6c78d1;}
+.form-check-input:checked {background-color: #6c78d1; border-color: #6c78d1;}
+.form-control:focus {box-shadow: 0 0 0 .25rem rgba(132, 133, 29,.25); border-color: #6c78d1;}
+.form-control {border: 1px solid #ccc;}
+
+.authenticate-logo {margin-bottom: 20px;}
+.authenticate-logo img {width: 120px !important; height: auto !important;}
+
+@media (max-width: 1459px) {
+    #auth #auth-left {padding: 3rem 3rem;}
+}
+
+@media screen and (max-width:576px){ 
+
+    #auth #auth-left{  padding: 3rem 1.5rem; }
+
+}
+
