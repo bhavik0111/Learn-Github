@@ -7,7 +7,7 @@
                     <div class="col-md-12">
                         <form method="POST" action="{{ route('admin.about.store') }}" enctype="multipart/form-data" class="user-create-form">
                             @csrf
-                            <div class="card new class">
+                            <div class="card new class new class">
                                 <div class="card-header justify-content-between">
                                     <h4 class="card-title"><b>{{ __('About Us') }}</b></h4>
                                 </div>
